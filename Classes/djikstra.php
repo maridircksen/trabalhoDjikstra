@@ -8,7 +8,7 @@ require_once "vertice.php";
 class djikstra {
     
     /** Constante que indica um suposto valor para infinito */
-    const INFINITO = 9898989898;
+    const INFINITO = 9999999999;
 
     /** Armazena o resultado do calculo de rotas*/
     private $resultado;
