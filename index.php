@@ -13,7 +13,7 @@ $oView = new \viewRotas();
 //Cria uma instância da classe responsável pela geração das strings de rotas.
 $oRoutes = new \routes();
 //Chama a função que calcula as rotas do grafo e passa o vértice inicial.
-$aRetorno = $oDjikstra->calcularRotas($oGrafo->getGrafo(), 'SC1');
+$aRetorno = $oDjikstra->calcularRotas($oGrafo->getGrafo(), 'SP1');
 //Monta as strings contendo as melhores rotas de acordo com o resultado do processamento.
 $aRotas = $oRoutes->getRotas($aRetorno);
 //Exibe o resultado na tela.
