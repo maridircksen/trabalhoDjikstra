@@ -66,7 +66,7 @@ class routes {
             'RJ1' => 'Rio de Janeiro 1',
             'RJ2' => 'Rio de Janeiro 2',
             'RJ3' => 'Rio de Janeiro 3',
-            'ES1' => 'Espirito Santo',
+            'ES1' => 'Espirito Santo 1',
             'MG1' => 'Minas Gerais 1',
             'MG2' => 'Minas Gerais 2',
             'MG3' => 'Minas Gerais 3',
