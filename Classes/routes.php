@@ -14,7 +14,7 @@ class routes {
     public function getRotas($aVertices) {
         $aCaminhos = [];
         foreach($aVertices as $oVertice) {
-            $aCaminhos[] = $this->getCaminhoCompleto($oVertice, $aVertices) . ' <strong>|| Custo: ' . $oVertice->getCusto() . '</strong>';
+            $aCaminhos[] = $this->getCaminhoCompleto($oVertice, $aVertices) . ' <strong>| Custo: ' . $oVertice->getCusto() . '</strong>';
         }
         return $aCaminhos;
     }
