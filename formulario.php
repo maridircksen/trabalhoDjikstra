@@ -14,8 +14,9 @@
 <body>
     <header>
         <a class="titulo">Trabalho Djikstra</a>
-
     </header>
+    <br>
+    <img src="img/mapaAeroportos.png" alt="Mapa de Aeroportos" class="mapa">
     <div class="formulario">
       <?php
             require_once "./classes/processaFormulario.php";
