@@ -43,7 +43,7 @@
                 <br>";  
                 
             
-            // verifica se o formulário foi enviado
+            //Verifica se o formulário foi enviado
             if ($_SERVER["REQUEST_METHOD"] === "POST") {
               
 
