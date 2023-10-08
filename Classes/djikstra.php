@@ -35,7 +35,9 @@ class djikstra {
         $this->verificaAtualizacaoResultado($bAtualiza, $aVertices);
 
         return $aVertices;
+        // return $this->getResultado();
     }
+
 
     /**
      * Retorna um array com todos os vertices do grafo considerando todos como não visitados.

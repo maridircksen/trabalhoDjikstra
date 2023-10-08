@@ -12,8 +12,8 @@ header {
 }
 
 .mapa {
-    width: 700px; /* Defina a largura desejada */
-    height: 700px; /* Defina a altura desejada */
+    width: 700px; 
+    height: 700px;
     /* display: block;
     margin: 0 auto;  */
 }

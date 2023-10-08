@@ -4,7 +4,8 @@ class processaFormulario {
 
     public function __construct() {
         $this->setAeroportos(
-            [
+            [   
+                'RS0',  
                 'RS1',  
                 'RS2', 
                 'SC1', 
@@ -53,7 +54,7 @@ class processaFormulario {
 
     }
 
-        /**
+    /**
      * Função que retorna o array que representa o Aeroporto escolhido do grafo.
      * @param Array $aArray - Array a ser setado como grafo.
      */
@@ -71,6 +72,3 @@ class processaFormulario {
 }
 
 
-// echo '<pre>';
-//     var_dump($oAeroporto);
-// echo '</pre>';
