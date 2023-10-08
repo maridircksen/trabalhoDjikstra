@@ -18,32 +18,17 @@ class routes {
         }
         return $aCaminhos;
     }
-
-    // /**
-    //  * Método apenas para caso seja necessária alguma tratativa.
-    //  * @param \Vertice $oVertice
-    //  * @param Array $aVertices
-    //  */
-    // private function getCaminhoCompleto($oVertice, $aVertices) {
-    //     return $this->getPrecedenteRecursive($oVertice, $aVertices);
+    // public function getRotas($aVertices) {
+    //     $aCaminhos = [];
+    //     foreach ($aVertices as $oVertice) {
+    //         $oCusto = $oVertice->getCusto();
+    //         $sCusto = $oCusto !== 0 ? '<strong>| Custo: ' . $oCusto . '</strong>' : '';
+    //         // $sVertice = $oCusto !== 0 ? $this->getNomeCerto($oVertice->getNome()) : '';
+    //         $aCaminhos[] = $this->getCaminhoCompleto($oVertice, $aVertices). $sCusto;
+    //     }
+    //     return $aCaminhos;
     // }
 
-    // /**
-    //  * Método recursivo para montagem das rotas.
-    //  * @param \Vertice $oVertice
-    //  * @param Array $aVertices
-    //  * @return String $sCaminho
-    //  */
-    // private function getPrecedenteRecursive($oVertice, $aVertices) {
-    //     $sCaminho = '';
-    //     if ($oVertice->getPrecedente() != null) {
-    //         $sCaminho .= $this->getPrecedenteRecursive($aVertices[$oVertice->getPrecedente()], $aVertices) . ' - ' . $this->getNomeCerto($oVertice->getNome()) ; 
-    //     }
-    //     else {
-    //         $sCaminho = $this->getNomeCerto($oVertice->getNome());
-    //     }
-    //     return $sCaminho;
-    // }
 
      /**
      * Método apenas para caso seja necessária alguma tratativa.
