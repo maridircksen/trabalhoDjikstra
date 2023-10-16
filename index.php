@@ -1,6 +1,6 @@
 <?php
 require_once "./classes/grafo.php";
-require_once "./classes/djikstra.php";
+require_once "./classes/dijkstra.php";
 require_once "./classes/viewRotas.php";
 require_once "./classes/routes.php";
 
