@@ -71,10 +71,6 @@ footer {
 }
 
 /* Estilo para os ícones de mídias sociais */
-.icones {
-    /* margin-top: 20px; */
-}
-
 .icones a {
     text-decoration: none;
     color: #333;
@@ -104,6 +100,18 @@ footer a {
     justify-content: space-between;
     align-items: center;
     padding: 50px;
+}
+
+.contatos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px; 
+    text-align: center;
+}
+
+.dados-contato{
+    text-align: left;
 }
 
 #icone_facebook, #icone_twitter, #icone_instagram, #icone_gitHub {

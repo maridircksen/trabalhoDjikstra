@@ -92,28 +92,22 @@
           </a>
         </div>
       </section>
-      <section >
-        <div class="container text-center text-md-start mt-5">
-          <div class="row mt-3">
-            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-              <h6 class="text-uppercase fw-bold mb-4">
-                <i class="fas fa-gem me-3"></i>
-              </h6>
-              <p style="">
-              Projeto de Djikstra
-              </p>
-            </div>
-            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-              <h6 class="text-uppercase fw-bold mb-4">Contatos</h6>
-              <a> Rio do Sul, Santa Catarina, Brasil</a>
-              <a class="dadosEmail" href="mailto:julia.salvador@unidavi.edu.br">julia.salvador@unidavi.edu.br</a>
-              <a class="dadosEmail" href="mailto:mariana.dircksen@unidavi.edu.br">mariana.dircksen@unidavi.edu.br</a>
-       
-            </div>
+      <section class="contatos">
+        <div>
+          <p class="fw-bold mb-4">
+          Projeto de Djikstra
+          </p>
+        </div>
+        <div>
+          <h6 class="text-uppercase fw-bold mb-4">Contatos</h6>
+          <div class="dados-contato">
+            <a> Rio do Sul, Santa Catarina, Brasil</a><br>
+            <a class="dadosEmail" href="mailto:mariana.dircksen@unidavi.edu.br">mariana.dircksen@unidavi.edu.br</a><br>
+            <a class="dadosEmail" href="mailto:julia.salvador@unidavi.edu.br">julia.salvador@unidavi.edu.br</a>
           </div>
         </div>
       </section>
-      <section >
+      <section>
        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
        Todos os direitos reservados &copy 2023 &reg
           <a class="text-reset fw-bold" href="https://github.com/maridircksen/trabalhoDjikstra.git">
