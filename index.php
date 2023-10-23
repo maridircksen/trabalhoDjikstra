@@ -43,7 +43,7 @@
 
             echo "</select>
                     <input type='submit' value='Enviar' class='botaoEnviar'>
-                    <a href='formulario.php' class='botaoLimpar'>Limpar</a>
+                    <a href='index.php' class='botaoLimpar'>Limpar</a>
                 </form> 
                 <br>";  
                 
