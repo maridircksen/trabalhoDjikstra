@@ -26,8 +26,9 @@ header {
 }
 
 .formulario{
-    margin-top: 10px;
-    margin-left: 5px;
+    /* margin-top: 10px;
+    margin-left: 5px; */
+    margin: 10px 5px;
 }
 
 .botaoEnviar{
