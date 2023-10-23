@@ -109,7 +109,7 @@
       </section>
       <section >
        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
-          © 2023 
+       Todos os direitos reservados &copy 2023 &reg
           <a class="text-reset fw-bold" href="https://github.com/maridircksen/trabalhoDjikstra.git">
             Estrutura de Dados II
           </a>
