@@ -70,7 +70,7 @@ footer {
 
 /* Estilo para os ícones de mídias sociais */
 .icones {
-    margin-top: 20px;
+    /* margin-top: 20px; */
 }
 
 .icones a {
@@ -81,6 +81,11 @@ footer {
 }
 
 /* Estilo para os elementos de contato no rodapé */
+footer{
+    margin: 0px;
+    padding: 0px;
+}
+
 footer p {
     margin: 5px 0;
 }
@@ -90,6 +95,13 @@ footer a {
     text-decoration: none;
     font-weight: bold;
     color: #24252a;
+}
+
+.redes-sociais {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
 }
 
 #icone_facebook, #icone_twitter, #icone_instagram, #icone_gitHub {
@@ -110,6 +122,10 @@ footer a {
 
 #icone_gitHub:hover {
     color: rgb(150, 7, 7);
+}
+
+.dadosEmail {
+    color: inherit;
 }
 
 /* Estilo da Barra de Rolagem */

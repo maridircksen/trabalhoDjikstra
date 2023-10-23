@@ -56,7 +56,7 @@
 <footer>
     <div class="text-center text-lg-start bg-light text-muted" id = "footer" >
       <!-- Ícones Mídias Sociais -->
-      <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom" style="background-color: #24252a;" >
+      <section class="redes-sociais" style="background-color: #24252a;" >
         <!--Esquerda-->
         <div class="me-5 d-none d-lg-block">
           <span style="color: #fff;">Conecte-se conosco nas redes sociais:</span>
@@ -101,8 +101,8 @@
             <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
               <h6 class="text-uppercase fw-bold mb-4">Contatos</h6>
               <a> Rio do Sul, Santa Catarina, Brasil</a>
-              <a>julia.salvador@unidavi.edu.br</a>
-              <a>mariana.dircksen@unidavi.edu.br</a>
+              <a class="dadosEmail" href="mailto:julia.salvador@unidavi.edu.br">julia.salvador@unidavi.edu.br</a>
+              <a class="dadosEmail" href="mailto:mariana.dircksen@unidavi.edu.br">mariana.dircksen@unidavi.edu.br</a>
        
             </div>
           </div>
