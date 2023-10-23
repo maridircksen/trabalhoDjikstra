@@ -94,7 +94,7 @@
               <h6 class="text-uppercase fw-bold mb-4">
                 <i class="fas fa-gem me-3"></i>
               </h6>
-              <p style="text-align: justify;">
+              <p style="">
               Projeto de Djikstra
               </p>
             </div>
@@ -105,7 +105,8 @@
               <a>mariana.dircksen@unidavi.edu.br</a>
        
             </div>
-         </div>
+          </div>
+        </div>
       </section>
       <section >
        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
