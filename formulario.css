@@ -26,8 +26,6 @@ header {
 }
 
 .formulario{
-    /* margin-top: 10px;
-    margin-left: 5px; */
     margin: 10px 5px;
 }
 
@@ -35,8 +33,13 @@ header {
     border-radius: 4px;
     width: 70px;
     height: 33px;
+    border: 1px;
     color: white;
     background-color: rgb(7, 181, 94);
+}
+
+.botaoEnviar:hover{
+    background-color: rgb(4, 101, 52);
 }
 
 .botaoLimpar{
@@ -49,12 +52,16 @@ header {
 
 }
 
+.botaoLimpar:hover{
+    background: rgb(1, 59, 91);
+}
+
 .opcoes{
-    /* border: 112px; */
+    /* border: 1px solid #ccc; */
     border-color: black;
     border-radius: 3px;
     width: 70px;
-    height: 33px;
+    height: 28px;
 
 }
 

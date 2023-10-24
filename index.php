@@ -41,7 +41,7 @@
                 echo "<option value='$opcao'>$opcao</option>";
             }
 
-            echo "</select>
+            echo "</select><br>
                     <input type='submit' value='Enviar' class='botaoEnviar'>
                     <a href='index.php' class='botaoLimpar'>Limpar</a>
                 </form> 
